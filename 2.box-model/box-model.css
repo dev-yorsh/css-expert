@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+}
+
+.box-model1{
+    margin: 0 auto; /* Centrar a los costados */
+    background: #fcb424;
+}
+
+
+.box{
+    width: 300px;
+    height: 160px;
+}
+
+.box-model1{
+    background: #fcb424;
+    padding-top: 1px; 
+}
+
+.box-hijo{
+    height: 40px;
+    background: blueviolet;
+    margin-top: 30px;
+}
+
+
+.box-model2{
+
+    box-sizing: border-box;
+    padding: 30px;
+    background: #3498DB;
+    margin-top: 40px;
+    margin-left: 20px;
+    overflow: hidden;
+}
